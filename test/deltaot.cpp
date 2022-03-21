@@ -1,5 +1,5 @@
-#include <emp-tool/emp-tool.h>
-#include "emp-ot/emp-ot.h"
+#include <emp-tool-tg/emp-tool/emp-tool.h>
+#include "emp-ot-tg/emp-ot/emp-ot.h"
 #include <thread>
 using namespace std;
 using namespace emp;

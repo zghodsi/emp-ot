@@ -1,7 +1,7 @@
 #ifndef OT_CO_H__
 #define OT_CO_H__
-#include "emp-ot/ot.h"
-#include <emp-tool/emp-tool.h>
+#include "emp-ot-tg/emp-ot/ot.h"
+#include <emp-tool-tg/emp-tool/emp-tool.h>
 /** @addtogroup OT
     @{
   */

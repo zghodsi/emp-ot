@@ -1,6 +1,6 @@
 #ifndef OT_NP_H__
 #define OT_NP_H__
-#include "emp-ot/ot.h"
+#include "emp-ot-tg/emp-ot/ot.h"
 /** @addtogroup OT
 	@{
 */

@@ -1,8 +1,8 @@
 #ifndef OT_SH_EXTENSION_H__
 #define OT_SH_EXTENSION_H__
-#include "emp-ot/ot.h"
-#include "emp-ot/ot_extension.h"
-#include "emp-ot/np.h"
+#include "emp-ot-tg/emp-ot/ot.h"
+#include "emp-ot-tg/emp-ot/ot_extension.h"
+#include "emp-ot-tg/emp-ot/np.h"
 /** @addtogroup OT
   @{
  */

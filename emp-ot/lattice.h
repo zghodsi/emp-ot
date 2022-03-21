@@ -10,7 +10,7 @@
 
 #include <limits>   // std::numeric_limits
 
-#include "emp-ot/ot.h"
+#include "emp-ot-tg/emp-ot/ot.h"
 
 #include <boost/bind.hpp>
 #include <boost/function.hpp>

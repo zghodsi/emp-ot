@@ -1,7 +1,7 @@
 #ifndef OT_M_EXTENSION_H__
 #define OT_M_EXTENSION_H__
-#include "emp-ot/ot.h"
-#include "emp-ot/co.h"
+#include "emp-ot-tg/emp-ot/ot.h"
+#include "emp-ot-tg/emp-ot/co.h"
 
 /** @addtogroup OT
   @{

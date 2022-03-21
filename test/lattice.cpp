@@ -1,7 +1,7 @@
 // lattice.cpp contains tests for the implementation of the
 // PVW08 lattice-based oblivious transfer protocol
 #include "test/test.h"
-#include "emp-ot/lattice.h"
+#include "emp-ot-tg/emp-ot/lattice.h"
 #include <cmath>
 #include <iostream>
 #ifndef EMP_USE_RANDOM_DEVICE
