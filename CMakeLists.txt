@@ -4,9 +4,9 @@ set(NAME "emp-ot")
 set (CMAKE_CXX_STANDARD 11) 
 
 find_path(CMAKE_FOLDER NAMES cmake/emp-tool-tg/emp-tool-config.cmake)
-include(${CMAKE_FOLDER}/cmake/common.cmake)
-include(${CMAKE_FOLDER}/cmake/source_of_randomness.cmake)
-include(${CMAKE_FOLDER}/cmake/threading.cmake)
+include(${CMAKE_FOLDER}/cmake/emp-tool-tg/common.cmake)
+include(${CMAKE_FOLDER}/cmake/emp-tool-tg/source_of_randomness.cmake)
+include(${CMAKE_FOLDER}/cmake/emp-tool-tg/threading.cmake)
 
 find_package(emp-tool REQUIRED)
 # Requirements for lattice
@@ -33,4 +33,4 @@ else(LATTICEOT)
 
 endif(LATTICEOT)
 
-configure_file(${CMAKE_SOURCE_DIR}/emp-ot-tg/emp-ot/latticeInclude.h.in ${CMAKE_SOURCE_DIR}/emp-ot-tg/emp-ot/latticeInclude.h @ONLY)
+configure_file(${CMAKE_SOURCE_DIR}/emp-ot/latticeInclude.h.in ${CMAKE_SOURCE_DIR}/emp-ot/latticeInclude.h @ONLY)
